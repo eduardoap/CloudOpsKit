@@ -14,7 +14,7 @@ provider "aws" {
 
 # Chamar o módulo VPC
 module "vpc" {
-  source = "../modules/01-vpc"
+  source = "../../modules/01-vpc"
 
   vpc_cidr = "10.0.0.0/16"
   tags = {

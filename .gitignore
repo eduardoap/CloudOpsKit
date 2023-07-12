@@ -1,0 +1,22 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.terraform.lock.hcl
+
+# Arquivos de backup criados pelo editor de texto
+*~
+
+# Arquivos de log
+*.log
+
+# Diretório .terraform
+.terraform/
+
+# Variáveis de ambiente e configurações específicas do usuário
+.env
+terraform.tfvars
+
+# Outros arquivos e pastas específicos do projeto
+/config/
+/terraform.tfstate.d/
